@@ -1,13 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      coming soon
-    </div>
-  );
+class App extends React.Component {
+  constructor (props) {
+    super (props)
+    this.state = {
+      
+    }
+  }
+
+
+  render() {
+    return (
+      <div className="App">
+        coming soon
+      </div>
+    );
+  }
 }
 
 export default App;
