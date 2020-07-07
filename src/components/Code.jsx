@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css';
+import './Code.css';
 
-const Home = () => (
+const Code = () => (
   <div className="temp">coming soon</div>
-)
+);
 
-export default Home;
+export default Code;

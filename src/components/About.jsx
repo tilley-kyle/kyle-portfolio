@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css';
+import './About.css';
 
-const Home = () => (
+const About = () => (
   <div className="temp">coming soon</div>
-)
+);
 
-export default Home;
+export default About;

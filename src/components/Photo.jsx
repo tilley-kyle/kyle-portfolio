@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css';
+import './Photo.css';
 
-const Home = () => (
+const Photo = () => (
   <div className="temp">coming soon</div>
-)
+);
 
-export default Home;
+export default Photo;

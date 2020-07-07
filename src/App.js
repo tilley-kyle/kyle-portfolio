@@ -27,7 +27,7 @@ class App extends React.Component {
               <Link className="link" to="/">Home</Link>
               <Link className="link" to="/About">About Kyle</Link>
               <Link className="link" to="/Code">My Code</Link>
-              <Link className="link" to="/Photos">Photos a la Kyle</Link>
+              <Link className="link" to="/Photos">Photography</Link>
             </div>
           </div>
 
