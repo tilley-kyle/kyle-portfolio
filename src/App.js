@@ -10,8 +10,8 @@ import './App.css';
 import Home from './components/Home';
 
 class App extends React.Component {
-  constructor (props) {
-    super (props)
+  constructor(props) {
+    super(props)
     this.state = {
 
     }
@@ -22,19 +22,21 @@ class App extends React.Component {
     return (
       <div className="total-container">
         <Router>
-        <div className="banner-container">
-          <Link to="/">Home</Link>
-          <Link to="/About">About Kyle</Link>
-          <Link to="/Code">Kyle's Code</Link>
-          <Link to="/Photos">Photos a la Kyle</Link>
-        </div>
+          <div className="banner-container">
+            <div className="link-container">
+              <Link className="link" to="/">Home</Link>
+              <Link className="link" to="/About">About Kyle</Link>
+              <Link className="link" to="/Code">My Code</Link>
+              <Link className="link" to="/Photos">Photos a la Kyle</Link>
+            </div>
+          </div>
 
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </Router>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
         <div className="temp">Coming Soon</div>
       </div>
     );

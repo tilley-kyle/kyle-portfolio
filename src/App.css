@@ -1,7 +1,3 @@
-.temp {
-  text-align: center;
-}
-
 .total-container {
   display: grid;
   grid-template-rows: 25% 75%;
@@ -10,5 +6,17 @@
 
 .banner-container {
   background-image: url('./images/Eyes_of_Juno.jpg');
-  background-position: 50% 47%;
+  background-position: 50% 48%;
+}
+
+.link-container {
+  position: absolute;
+  top: 20%;
+}
+
+.link {
+  font-family: Consolas;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
 }
