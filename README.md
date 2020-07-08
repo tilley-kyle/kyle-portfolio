@@ -3,6 +3,7 @@
 ## ToDo
 - make sizing work properly for elements so when screen size is changed things stay in proportion
 - add a 'blog' section to the bottom
+- simple KT logo
 - About Kyle page
 > - Who am I?
 > - What do I do?
