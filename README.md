@@ -7,6 +7,7 @@
 > - Who am I?
 > - What do I do?
 > - Picture
+> - links on the side to different parts of the page
 - My Code page
 > - Highlighted projects
 > - Link to github
