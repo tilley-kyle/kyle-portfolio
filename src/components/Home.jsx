@@ -18,7 +18,7 @@ const Home = () => (
         Here we might find some information on what Kyle has planned next in the pipeline. Is he going to build a cool new app? Learn a crazy new tech? Run another ultra-marathon?
         Maybe he'll take a sweet shot of the Milky Way? Who knows, but yet again you are reading filler.
         <ul className="ul">
-          <li className="li">Build out 'About Kyle' component</li>
+          <li className="li">'About Kyle' component: add photos and nav bar</li>
           <li className="li">Build out 'My Code' component</li>
           <li className="li">Build out 'Photography' component</li>
           <li className="li">Put finalized info into each component</li>
