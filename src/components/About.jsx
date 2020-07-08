@@ -12,7 +12,7 @@ const About = () => (
         You've found your way onto my site, either on purpose or by stumbling here following random links as you explore deeper and deeper into the World Wide Web.
         Either way you are here now, so let me tell you who I am!
       </div>
-      <div className="about-recent-container">
+      <div className="about-interest-container">
         <h3>Programming</h3>
           I'm a full stack Software Engineer utilizing JavaScript, React, Express, Nodejs, AWS, SQL and NoSQL databases to get the job done! I originally learn how to code
           at Galvanize/Hack Reactor. There I learned:

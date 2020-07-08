@@ -48,13 +48,14 @@
   margin-bottom: 0vh;
 }
 
-.about-recent-container {
-  width: 36vmax;
+.about-interest-container {
+  max-width: 36vmax;
   padding: 2vmin 2vmax;
-  padding-right: 0vw;
-  margin-right: 34vw;
+  padding-top: 1vh;
   padding-left: 0vmax;
+  padding-right: 0vw;
   margin-left: 2vmax;
+  margin-right: 34vw;
   font-size: 1.1vw;
   border-bottom: 2px solid lightgray;
 }
