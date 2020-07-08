@@ -25,21 +25,28 @@
 
 .title1 {
   font-weight: bolder;
-  padding-left: 2vmax;
-  padding-bottom: 1vmin;
+  padding: 1.5vmin 2vmax;
+  padding-left: 0vmax;
+  margin-left: 2vmax;
   font-size: 2.3vw;
+  border-bottom: 2px solid lightgray;
+  width: 36vmax;
 }
 
 .top-paragraph {
-  max-width: 36vmax;
-  padding-left: 2vmax;
+  width: 36vmax;
+  padding: 2vmin 2vmax;
+  padding-left: 0vmax;
+  margin-left: 2vmax;
   font-size: 1.1vw;
+  border-bottom: 2px solid lightgray;
 }
 
 .fricken {
   background-image: url('../images/fricken.jpg');
   height: auto;
   max-width: 18vmax;
+  max-height: 45vmin;
   float: right;
   padding: 0px;
   border: 1px solid rgb(133, 124, 124);
