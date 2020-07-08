@@ -1,7 +1,7 @@
 .total-container {
   display: grid;
-  grid-template-rows: 25% 75%;
-  min-height: 100vmin;
+  grid-template-rows: 25vh 75vh;
+  min-height: 100vh;
   font-family: Consolas;
 }
 

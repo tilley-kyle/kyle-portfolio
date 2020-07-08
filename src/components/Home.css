@@ -1,11 +1,7 @@
-.temp {
-  text-align: center;
-}
-
 .home-container {
   display: grid;
   grid-template-columns: 1fr 65vmax 1fr;
-  background-image: linear-gradient(#DAE0E6, #afafaf);
+  /* background-image: linear-gradient(#DAE0E6, #afafaf); */
 }
 
 .next-container {
@@ -19,6 +15,7 @@
 
 .left-column {
   border-right: 1px hidden black;
+  background-image: linear-gradient(#DAE0E6, #afafaf);
 }
 
 .center-column {
@@ -29,7 +26,8 @@
 }
 
 .right-column {
-  border-left: 1px hidden black
+  border-left: 1px hidden black;
+  background-image: linear-gradient(#DAE0E6, #afafaf);
 }
 
 .title1 {
