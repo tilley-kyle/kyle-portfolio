@@ -16,7 +16,7 @@
   background-color: rgb(238, 238, 238);
   display: inline-block;
   flex-wrap: wrap;
-  
+
 }
 
 .right-column {
@@ -26,11 +26,14 @@
 .title1 {
   font-weight: bolder;
   padding-left: 2vmax;
+  padding-bottom: 1vmin;
+  font-size: 2.3vw;
 }
 
 .top-paragraph {
-  max-width: 38vmax;
+  max-width: 36vmax;
   padding-left: 2vmax;
+  font-size: 1.1vw;
 }
 
 .fricken {

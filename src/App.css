@@ -12,7 +12,8 @@
 
 .link-container {
   position: absolute;
-  top: 20%;
+  top: 20vmin;
+  padding-left: 2vmax;
 }
 
 .link {
@@ -20,4 +21,5 @@
   color: white;
   text-decoration: none;
   margin: 15px;
+  font-size: 1.2vw;
 }
