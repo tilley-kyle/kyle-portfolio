@@ -26,3 +26,5 @@
 > - Dates on the recently completed things
 - Running page
 > - idk yet, just an idea
+- non-code interests page
+> - maybe combine running, brewing, photography into a single dropdown to keep the top bar from getting cluttered?
