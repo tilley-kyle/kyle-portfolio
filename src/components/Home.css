@@ -3,15 +3,6 @@
   grid-template-columns: 1fr 65vmax 1fr;
 }
 
-.recent-container {
-  width: 36vmax;
-  padding: 2vmin 2vmax;
-  padding-left: 0vmax;
-  margin-left: 2vmax;
-  font-size: 1.1vw;
-  border-bottom: 2px solid lightgray;
-}
-
 .left-column {
   border-right: 1px hidden black;
   background-image: linear-gradient(#DAE0E6, #afafaf);
@@ -40,6 +31,15 @@
 }
 
 .top-paragraph {
+  width: 36vmax;
+  padding: 2vmin 2vmax;
+  padding-left: 0vmax;
+  margin-left: 2vmax;
+  font-size: 1.1vw;
+  border-bottom: 2px solid lightgray;
+}
+
+.recent-container {
   width: 36vmax;
   padding: 2vmin 2vmax;
   padding-left: 0vmax;

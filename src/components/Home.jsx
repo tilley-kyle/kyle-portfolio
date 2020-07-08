@@ -8,11 +8,13 @@ const Home = () => (
     <div className="center-column">
     <img className="fricken" src={image} alt="where is the Fricken?"/>
       <h1 className="title1">Welcome to the world of Kyle</h1>
-      <p className="top-paragraph">Here we might find information as to why this site might exist. Will this site be for the Code of Kyle? Will it be for view the world as Kyle
+      <div className="top-paragraph">
+        Here we might find information as to why this site might exist. Will this site be for the Code of Kyle? Will it be for view the world as Kyle
         attempts to capture it through the lenses of a DSLR? Maybe we will learn who Kyle is in a section that describes what this site is About. What about a blog-like section, talking
         about the comings and goings of Kyle's life in Code, photography, or other interests? One thing we do know is that we don't actually know what is to come. This is just a filler paragraph you read.
-      </p>
+      </div>
       <div className="recent-container">
+        <h3>What is next for Kyle</h3>
         Here we might find some information on what Kyle has planned next in the pipeline. Is he going to build a cool new app? Learn a crazy new tech? Run another ultra-marathon?
         Maybe he'll take a sweet shot of the Milky Way? Who knows, but yet again you are reading filler.
         <ul className="ul">
@@ -26,6 +28,7 @@ const Home = () => (
         </ul>
       </div>
       <div className="recent-container">
+        <h3>What has Kyle done recently</h3>
         In this section we will list the things Kyle has recently completed. Did he just go on an adventure?
         Did he just complete classes? Learn any new technologies? Finish a race or a hard workout?
         <ul className="ul">
