@@ -1,3 +1,25 @@
 .temp {
   text-align: center;
 }
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 65vmax 1fr;
+}
+
+.left-column {
+  border-right: 1px hidden black;
+  background-image: linear-gradient(#DAE0E6, #afafaf);
+}
+
+.center-column {
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  flex-wrap: wrap;
+
+}
+
+.right-column {
+  border-left: 1px hidden black;
+  background-image: linear-gradient(#DAE0E6, #afafaf);
+}
