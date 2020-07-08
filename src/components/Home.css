@@ -16,6 +16,7 @@
   background-color: rgb(238, 238, 238);
   display: inline-block;
   flex-wrap: wrap;
+  
 }
 
 .right-column {
@@ -24,6 +25,7 @@
 
 .title1 {
   font-weight: bolder;
+  padding-left: 2vmax;
 }
 
 .top-paragraph {
