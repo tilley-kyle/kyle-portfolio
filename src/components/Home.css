@@ -4,8 +4,17 @@
 
 .home-container {
   display: grid;
-  grid-template-columns: 1fr 60vmax 1fr;
+  grid-template-columns: 1fr 65vmax 1fr;
   background-image: linear-gradient(#DAE0E6, #afafaf);
+}
+
+.next-container {
+  width: 36vmax;
+  padding: 2vmin 2vmax;
+  padding-left: 0vmax;
+  margin-left: 2vmax;
+  font-size: 1.1vw;
+  border-bottom: 2px solid lightgray;
 }
 
 .left-column {
@@ -45,10 +54,12 @@
 .fricken {
   background-image: url('../images/fricken.jpg');
   height: auto;
-  max-width: 18vmax;
-  max-height: 45vmin;
+  max-width: 25vmax;
+  max-height: 50vmin;
   float: right;
   padding: 0px;
-  border: 1px solid rgb(133, 124, 124);
-  box-shadow: -2px 2px 5px rgb(175, 174, 174);
+  margin: 1vmin;
+  margin-right: 2vmin;
+  border: 1.5px solid rgb(133, 124, 124);
+  box-shadow: -3px 3px 10px rgb(175, 174, 174);
 }
