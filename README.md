@@ -9,20 +9,20 @@
 > - What do I do?
 > - Picture
 - My Code page
-> - highlighted projects
-> - link to github
-> - iamges of projects, graphs
-> - why I made the project
-> - future plans
+> - Highlighted projects
+> - Link to github
+> - Iamges of projects, graphs
+> - Why I made the project
+> - Future plans
 - Photography page
-> - link to flickr and insta
-> - some highlighted picture, possibly from a certain flickr folder
-> - why I like pohotography
-> - future plans
+> - Link to flickr and insta
+> - Some highlighted picture, possibly from a certain flickr folder
+> - Why I like pohotography
+> - Future plans
 - Blog page?
 > - An archive of blogs
-> - about coding, photography, running, other?
-> - most recent is pulled up
-> - link to others
+> - About coding, photography, running, other?
+> - Most recent is pulled up
+> - Link to others
 - Running page
 > - idk yet, just an idea

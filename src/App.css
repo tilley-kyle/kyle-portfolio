@@ -1,7 +1,7 @@
 .total-container {
   display: grid;
-  grid-template-rows: 25% 75%;
-  min-height: 100vmin;
+  grid-template-rows: 25vh 75vh;
+  min-height: 100vh;
   font-family: Consolas;
 }
 
@@ -12,7 +12,8 @@
 
 .link-container {
   position: absolute;
-  top: 20%;
+  top: 20vmin;
+  padding-left: 2vmax;
 }
 
 .link {
@@ -20,4 +21,5 @@
   color: white;
   text-decoration: none;
   margin: 15px;
+  font-size: 1.2vw;
 }
