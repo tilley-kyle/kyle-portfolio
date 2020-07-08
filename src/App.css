@@ -31,11 +31,20 @@ h1{
   margin-left: 2vmax;
   margin-bottom: 0vh;
   font-size: 2.3vw;
-  /* border-bottom: 2px solid lightgray; */
   width: 36vmax;
 }
 
 h3 {
   margin-top: 0vh;
   margin-bottom: 1vh;
+}
+
+.top-paragraph {
+  width: 36vmax;
+  padding: 2vmin 2vmax;
+  padding-top: 1vh;
+  padding-left: 0vmax;
+  margin-left: 2vmax;
+  font-size: 1.1vw;
+  border-bottom: 2px solid lightgray;
 }
