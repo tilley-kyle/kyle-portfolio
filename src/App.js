@@ -49,7 +49,6 @@ class App extends React.Component {
             </Route>
           </Switch>
         </Router>
-        <div className="temp">Coming Soon</div>
       </div>
     );
   }
