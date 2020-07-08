@@ -5,17 +5,25 @@
 .home-container {
   display: grid;
   grid-template-columns: 1fr 60vmax 1fr;
-  background-image: linear-gradient(#DAE0E6, #afafaf)
+  background-image: linear-gradient(#DAE0E6, #afafaf);
 }
 
 .left-column {
-  border-right: 1px solid black;
+  border-right: 1px hidden black;
 }
 
 .center-column {
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(238, 238, 238);
 }
 
 .right-column {
-  border-left: 1px solid black
+  border-left: 1px hidden black
+}
+
+.title1 {
+  font-weight: bolder;
+}
+
+.top-paragraph {
+  
 }

@@ -2,6 +2,7 @@
   display: grid;
   grid-template-rows: 25% 75%;
   min-height: 100vmin;
+  font-family: Consolas;
 }
 
 .banner-container {
