@@ -1,10 +1,9 @@
 .home-container {
   display: grid;
   grid-template-columns: 1fr 65vmax 1fr;
-  /* background-image: linear-gradient(#DAE0E6, #afafaf); */
 }
 
-.next-container {
+.recent-container {
   width: 36vmax;
   padding: 2vmin 2vmax;
   padding-left: 0vmax;

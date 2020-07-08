@@ -1,7 +1,6 @@
 # My Portfolio site
 
 ## ToDo
-- make sizing work properly for elements so when screen size is changed things stay in proportion
 - add a 'blog' section to the bottom
 - simple KT logo
 - About Kyle page
@@ -24,5 +23,6 @@
 > - About coding, photography, running, other?
 > - Most recent is pulled up
 > - Link to others
+> - Dates on the recently completed things
 - Running page
 > - idk yet, just an idea
