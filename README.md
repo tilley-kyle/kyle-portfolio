@@ -1,6 +1,8 @@
 # My Portfolio site
 
 ## ToDo
+- ADD RESUME DOWNLOAD BUTTON
+- Am I actively looking for a job
 - add a 'blog' section to the bottom
 - simple KT logo
 - About Kyle page

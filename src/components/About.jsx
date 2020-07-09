@@ -35,7 +35,7 @@ const About = () => (
       </div>
       <div className="about-interest-container">
         <h3>Dog Dad</h3>
-        Juno, who you can see on the top of this page along side a bearded version of myself and gracing the top banner of every page here, is my best friend since adopting here
+        Juno, who you can see on the top of this page along side a bearded version of myself and gracing the top banner of every page here, is my best friend since adopting her
         Feb 7th, 2018. Rescued from Chataqua Park in Boulder as a puppy, she has been at my side running, doing agility, and most importantly playing fetch.
       </div>
       <div className="about-interest-container">
