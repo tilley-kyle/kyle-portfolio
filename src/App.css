@@ -8,6 +8,7 @@
 .banner-container {
   background-image: url('./images/Eyes_of_Juno.jpg');
   background-position: 50% 48%;
+  background-size: cover;
 }
 
 .link-container {
@@ -47,4 +48,13 @@ h3 {
   margin-left: 2vmax;
   font-size: 1.1vw;
   border-bottom: 2px solid lightgray;
+}
+
+.logo {
+  position: relative;
+  left: 71vw;
+  top: -2vh;
+  max-width: 10vw;
+  height: auto;
+  opacity: 0.45;
 }

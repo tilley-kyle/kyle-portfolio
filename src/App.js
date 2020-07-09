@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import './App.css';
 
+import logo from './images/Logo_Clear.png';
+
 import Home from './components/Home';
 import About from './components/About';
 import Code from './components/Code';
@@ -26,6 +28,7 @@ class App extends React.Component {
       <div className="total-container">
         <Router>
           <div className="banner-container">
+          <img className="logo" src={logo} alt="logo here"/>
             <div className="link-container">
               <Link className="link" to="/">Home</Link>
               <Link className="link" to="/About">About Kyle</Link>
@@ -33,7 +36,6 @@ class App extends React.Component {
               <Link className="link" to="/Photo">Photography</Link>
             </div>
           </div>
-
           <Switch>
             <Route exact path="/">
               <Home />
