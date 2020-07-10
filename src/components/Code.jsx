@@ -6,7 +6,7 @@ class Code extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      JavaScript: ['JavaScript(ES5/ES6)', 'React', 'React-Router', 'Webpack', 'Babel', 'Axios', 'HTML', 'CSS', 'JQuery'],
+      JavaScript: ['JavaScript(ES5/ES6)', 'React', 'React Router', 'Webpack', 'Babel', 'Axios', 'HTML', 'CSS', 'JQuery'],
       backEnd: ['Node.js', 'Express.js', 'Redis', 'Socket.IO'],
       dataBase: ['MongoDB', 'MySQL'],
       testing: ['Mocha', 'Chai'],
