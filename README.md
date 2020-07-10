@@ -3,6 +3,7 @@
 ## ToDo
 - ADD RESUME DOWNLOAD BUTTON
 - Am I actively looking for a job
+- Add StyleSheets folder to clean up components folder
 - footer
 > - links to other sites. Techs used to build etc.
 - add a 'blog' section to the bottom
