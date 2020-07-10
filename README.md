@@ -3,11 +3,10 @@
 ## ToDo
 - ADD RESUME DOWNLOAD BUTTON
 - Am I actively looking for a job
+- footer
+> - links to other sites. Techs used to build etc.
 - add a 'blog' section to the bottom
-- simple KT logo
 - About Kyle page
-> - Who am I?
-> - What do I do?
 > - Picture
 > - links on the side to different parts of the page
 - My Code page

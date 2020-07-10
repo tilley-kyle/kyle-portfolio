@@ -5,7 +5,7 @@ const Code = () => (
   <div className="code-container">
     <div className="left-column"></div>
     <div className="center-column">
-      <div className="temp">Code coming soon</div>
+      <h1>Code of Kyle</h1>
     </div>
     <div className="right-column"></div>
   </div>
