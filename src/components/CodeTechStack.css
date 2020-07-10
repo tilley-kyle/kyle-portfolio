@@ -1,0 +1,12 @@
+.tech-container {
+  padding-left: 0vw;
+  margin-left: 2vw;
+}
+
+.tech-item {
+  display: inline-block;
+}
+
+.tech-item::before {
+  content: "•";
+}
