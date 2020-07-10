@@ -24,14 +24,24 @@
   background-image: linear-gradient(#DAE0E6, #afafaf);
 }
 
-.code-entry-container {
+.project-container {
   max-width: 36vmax;
-  padding: 2vmin 2vmax;
+  padding: 2vh 2vw;
   padding-top: 1vh;
-  padding-left: 0vmax;
+  padding-left: 0vw;
   padding-right: 0vw;
-  margin-left: 2vmax;
+  margin-left: 2vw;
   margin-right: 34vw;
   font-size: 1.1vw;
   border-bottom: 2px solid lightgray;
+}
+
+.project-paragraph {
+  margin: 0vh;
+}
+
+.battleship {
+  float: right;
+  max-width: 25vw;
+  height: auto;
 }

@@ -1,8 +1,13 @@
 .tech-container {
-  padding-top: 2vh;
+  max-width: 36vmax;
+  padding: 2vh 2vw;
+  padding-top: 1vh;
   padding-left: 0vw;
+  padding-right: 0vw;
   margin-left: 2vw;
-  max-width: 40vw;
+  margin-right: 34vw;
+  font-size: 1.1vw;
+  border-bottom: 2px solid lightgray;
 }
 
 .tech-title {

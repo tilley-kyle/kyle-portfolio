@@ -2,6 +2,8 @@ import React from 'react';
 import './Code.css';
 import CodeTechStack from './CodeTechStack';
 
+import battleship from '../images/battleship_main.PNG';
+
 class Code extends React.Component {
   constructor(props) {
     super(props)
@@ -24,8 +26,19 @@ class Code extends React.Component {
       <div className="code-container">
         <div className="left-column"></div>
         <div className="center-column">
-          <h1>Tech Stack of Kyle</h1>
+          <h1>Kyle's Tech Stack</h1>
           <CodeTechStack JavaScript={JavaScript} backEnd={backEnd} dataBase={dataBase} testing={testing} generic={generic} />
+          <h1>Highlighted Projects</h1>
+          <img className="battleship" src={battleship} alt="battleship picture" />
+          <div className="project-container">
+            {/* <img className="battleship" src={battleship} alt="battleship picture" /> */}
+            <h3>Battleship: The Board Game... Onlinified</h3>
+            <p className="project-paragraph">
+              As you might assume by looking at the name, this projcet was to make the classic board game 'Battleship' and turn it into an
+              online multiplayer experience. My goals from the onset were to use Minimum Viable Product design principles, and to learn
+              to make a live multiplayer game using Sockets.IO.
+            </p>
+          </div>
         </div>
         <div className="right-column"></div>
       </div>

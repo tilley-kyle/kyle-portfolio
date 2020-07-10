@@ -20,7 +20,7 @@ const CodeTechStack = ({ JavaScript, backEnd, dataBase, testing, generic }) => {
       {testing.map((tech) => (
         <div className="tech-item">{tech}</div>
       ))}
-      <h3 className="tech-title">Other Technologies</h3>
+      <h3 className="tech-title">Workspace Technologies</h3>
       {generic.map((tech) => (
         <div className="tech-item">{tech}</div>
       ))}
