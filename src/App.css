@@ -41,6 +41,11 @@ h3 {
   margin-bottom: 1vh;
 }
 
+h4 {
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+}
+
 .top-paragraph {
   width: 36vmax;
   padding: 2vmin 2vmax;

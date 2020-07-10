@@ -38,6 +38,13 @@ class Code extends React.Component {
               online multiplayer experience. My goals from the onset were to use Minimum Viable Product design principles, and to learn
               to make a live multiplayer game using Sockets.IO.
             </p>
+            <ul className="next-steps">
+              <h4>NextSteps</h4>
+              <li className="li-steps">Build functionality for different instances of the game to be played at once</li>
+              <li className="li-steps">Add a radar animation to cycle as users play and are guessing where opponents ships are</li>
+              <li className="li-steps">Makes ships to be represented by shapes, not letters</li>
+              <li className="li-steps">Styling, primarily in the top bar</li>
+            </ul>
           </div>
         </div>
         <div className="right-column"></div>
