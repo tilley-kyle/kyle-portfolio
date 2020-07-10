@@ -8,7 +8,7 @@ class Code extends React.Component {
     this.state = {
       JavaScript: ['JavaScript(ES5/ES6)', 'React', 'React Router', 'Webpack', 'Babel', 'Axios', 'HTML', 'CSS', 'JQuery'],
       backEnd: ['Node.js', 'Express.js', 'Redis', 'Socket.IO'],
-      dataBase: ['MongoDB', 'MySQL'],
+      dataBase: ['MongoDB', 'MySQL', 'Redis'],
       testing: ['Mocha', 'Chai'],
       generic: ['Git', 'npm', 'AWS', 'Heroku', 'Bash'],
     }
@@ -24,7 +24,7 @@ class Code extends React.Component {
       <div className="code-container">
         <div className="left-column"></div>
         <div className="center-column">
-          <h1>Welcome to the Code of Kyle</h1>
+          <h1>Tech Stack of Kyle</h1>
           <CodeTechStack JavaScript={JavaScript} backEnd={backEnd} dataBase={dataBase} testing={testing} generic={generic} />
         </div>
         <div className="right-column"></div>

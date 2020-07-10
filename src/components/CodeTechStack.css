@@ -1,15 +1,21 @@
 .tech-container {
+  padding-top: 2vh;
   padding-left: 0vw;
   margin-left: 2vw;
   max-width: 40vw;
 }
 
+.tech-title {
+
+}
+
 .tech-item {
   display: inline-block;
-  padding-right: 2vw;
+  padding-right: 1.5vw;
   padding-bottom: 1vh;
 }
 
 .tech-item::before {
-  content: "• ";
+  content: "•";
+  padding-right: 0.5vw;
 }
