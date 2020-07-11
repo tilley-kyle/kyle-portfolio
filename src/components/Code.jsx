@@ -38,8 +38,19 @@ class Code extends React.Component {
         <div className="center-column">
           <h1>Kyle's Tech Stack</h1>
           <div className="tech-logo-container">
-            <img className="odd img-row" src={node} alt="node" />
-            <img className="odd img-row" src={redis} alt="redis" />
+            <img className="odd img-row" src={node} alt="Node Logo" />
+            <img className="odd img-row" src={js} alt="JavaScript Logo" />
+            <img className="odd img-row" src={aws} alt="AWS Logo" />
+            <br />
+            <img className="even-first img-row" src={mysql} alt="MySQL Logo" />
+            <img className="even-second  mongo" src={mongo} alt="MongoDB Logo" />
+            <br />
+            <img className="odd img-row" src={github} alt="Github.io Logo" />
+            <img className="odd img-row" src={mocha} alt="Mocha Logo" />
+            <img className="odd img-row" src={socket} alt="Socket.io Logo" />
+            <br />
+            <img className="even-first img-row" src={redis} alt="Redis Logo" />
+            <img className="even-second react" src={react} alt="React Logo" />
           </div>
           <CodeTechStack JavaScript={JavaScript} backEnd={backEnd} dataBase={dataBase} testing={testing} generic={generic} />
           <h1>Highlighted Projects</h1>

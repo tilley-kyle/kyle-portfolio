@@ -54,18 +54,37 @@
 
 .tech-logo-container {
   float: right;
-  width: 30vw;
+  width: 27vw;
+  padding: 1vw;
 }
 
 .img-row {
-  max-width: 5vw;
+  max-width: 5.5vw;
   height: auto;
 }
 
 .odd {
-
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
-.even {
+.even-first {
+  padding-left: 4vw;
+  padding-right: 1vw;
+}
+.even-second {
+  padding-left: 1vw;
+  padding-right: 4vw;
+}
 
+.mongo {
+  position: relative;
+  bottom: 0.5vh;
+  max-width: 10vw;
+}
+
+.react {
+  position: relative;
+  bottom: 1vh;
+  max-width: 9vw;
 }
