@@ -5,6 +5,7 @@
 - Am I actively looking for a job
 - Add StyleSheets folder to clean up components folder
 - switch absolute units to relative units
+- Switch column division to main app file from each individual component to help with footer placement
 - footer
 > - links to other sites. Techs used to build etc.
 - add a 'blog' section to the bottom
