@@ -3,6 +3,16 @@ import './Code.css';
 import CodeTechStack from './CodeTechStack';
 
 import battleship from '../images/battleship_main.PNG';
+import aws from '../images/aws_logo.png';
+import github from '../images/github_logo.png';
+import js from '../images/js_logo.png';
+import mocha from '../images/mocha_logo.png';
+import mongo from '../images/mongo_logo.png';
+import mysql from '../images/mysql_logo.png';
+import node from '../images/node_logo.png';
+import react from '../images/react_logo.png';
+import redis from '../images/redis_logo.png';
+import socket from '../images/socket.io_logo.png';
 
 class Code extends React.Component {
   constructor(props) {
@@ -27,11 +37,14 @@ class Code extends React.Component {
         <div className="left-column"></div>
         <div className="center-column">
           <h1>Kyle's Tech Stack</h1>
+          <div className="tech-logo-container">
+            <img className="odd img-row" src={node} alt="node" />
+            <img className="odd img-row" src={redis} alt="redis" />
+          </div>
           <CodeTechStack JavaScript={JavaScript} backEnd={backEnd} dataBase={dataBase} testing={testing} generic={generic} />
           <h1>Highlighted Projects</h1>
           <img className="battleship" src={battleship} alt="battleship picture" />
           <div className="project-container">
-            {/* <img className="battleship" src={battleship} alt="battleship picture" /> */}
             <h3>Battleship: The Board Game... Onlinified</h3>
             <p className="project-paragraph">
               As you might assume by looking at the name, this projcet was to make the classic board game 'Battleship' and turn it into an
