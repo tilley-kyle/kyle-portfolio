@@ -1,6 +1,7 @@
 import React from 'react';
 import './Code.css';
 import CodeTechStack from './CodeTechStack';
+import Footer from './Footer';
 
 import battleship from '../images/battleship_main.PNG';
 import aws from '../images/aws_logo.png';
@@ -72,6 +73,7 @@ class Code extends React.Component {
           </div>
         </div>
         <div className="right-column"></div>
+        <Footer />
       </div>
 
 
