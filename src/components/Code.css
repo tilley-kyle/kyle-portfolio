@@ -53,6 +53,8 @@
 }
 
 .tech-logo-container {
+  position: relative;
+  bottom: 2vh;
   float: right;
   width: 27vw;
   padding: 1vw;
@@ -80,7 +82,7 @@
 .mongo {
   position: relative;
   bottom: 0.5vh;
-  max-width: 10vw;
+  max-width: 9vw;
 }
 
 .react {
