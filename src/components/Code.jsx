@@ -73,7 +73,7 @@ class Code extends React.Component {
           </div>
         </div>
         <div className="right-column"></div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
 
 

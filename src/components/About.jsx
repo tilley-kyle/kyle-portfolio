@@ -53,7 +53,7 @@ const About = () => (
       </div>
     </div>
     <div className="right-column"></div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 );
 
