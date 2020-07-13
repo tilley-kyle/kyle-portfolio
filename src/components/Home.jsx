@@ -41,7 +41,7 @@ const Home = () => (
       </div>
     </div>
     <div className="right-column"></div>
-    {/* <Footer /> */}
+    <Footer />
   </div>
 )
 

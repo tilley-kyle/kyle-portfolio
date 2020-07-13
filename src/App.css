@@ -13,8 +13,8 @@
 
 .link-container {
   position: absolute;
-  top: 20vmin;
-  padding-left: 2vmax;
+  top: 20vh;
+  padding-left: 2vw;
 }
 
 .link {
@@ -27,13 +27,13 @@
 
 h1{
   font-weight: bolder;
-  padding: 0vmin 2vmax;
-  padding-left: 0vmax;
-  margin-left: 2vmax;
+  padding: 0vw 2vw;
+  padding-left: 0vw;
+  margin-left: 2vw;
   margin-bottom: 0vh;
   margin-top: 2vh;
   font-size: 2.3vw;
-  width: 36vmax;
+  width: 36vw;
 }
 
 h3 {
@@ -47,11 +47,11 @@ h4 {
 }
 
 .top-paragraph {
-  width: 36vmax;
-  padding: 2vmin 2vmax;
+  width: 36vw;
+  padding: 2vw 2vw;
   padding-top: 1vh;
-  padding-left: 0vmax;
-  margin-left: 2vmax;
+  padding-left: 0vw;
+  margin-left: 2vw;
   font-size: 1.1vw;
   border-bottom: 2px solid lightgray;
 }
