@@ -11,7 +11,7 @@ const Footer = () => (
       <img className="footer-logo" src={logo} alt="logo" />
       <div className="footer-techs">
         User interface built with: • React • React Router • Axios <br/>
-        Server layer built with: • Express •Node <br/>
+        Server layer built with: • Express • Node <br/>
         Database layer built with: • MySQL
         </div>
     </div>
