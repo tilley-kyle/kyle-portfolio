@@ -7,10 +7,10 @@ const Footer = () => (
   <footer className="footer-container">
     <div className="footer-border"></div>
     <div className="footer-content">
-      <div className="footer-title">KatilleyTech 2020</div>
+      <div className="footer-title">KatilleyTech July 2020</div>
       <img className="footer-logo" src={logo} alt="logo" />
       <div className="footer-techs">
-        User interface built with: • React • React Router • Axio <br/>
+        User interface built with: • React • React Router • Axios <br/>
         Server layer built with: • Express •Node <br/>
         Database layer built with: • MySQL
         </div>
