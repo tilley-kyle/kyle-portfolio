@@ -1,4 +1,36 @@
 .footer-container {
-  background-color: black;
-  min-height: 250vh;
+  display: grid;
+  grid-template-rows: 8% 1fr;
+  border-top: 1px none;
+  color: white;
+  font-weight: lighter;
+  font-size: 2vh;
+}
+
+.footer-border {
+  background-image: linear-gradient(#afafaf, rgb(41, 39, 39));
+}
+
+.footer-content {
+  background-color: rgb(41, 39, 39);
+}
+
+.footer-title {
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 1vh;
+}
+
+.footer-logo {
+  float: right;
+  width: 12vw;
+  position: relative;
+  bottom: .8vh;
+  right: 2vw;
+}
+
+.footer-techs {
+  padding-top: 2vh;
+  padding-left: 4vw;
 }
