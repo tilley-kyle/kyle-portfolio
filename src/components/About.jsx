@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css';
 import meAndJuno from '../images/me_and_juno.jpg';
-import Footer from './Footer';
 
 const About = () => (
   <div className="about-container">
@@ -53,7 +52,6 @@ const About = () => (
       </div>
     </div>
     <div className="right-column"></div>
-    {/* <Footer /> */}
   </div>
 );
 

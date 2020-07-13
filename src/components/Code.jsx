@@ -1,7 +1,6 @@
 import React from 'react';
 import './Code.css';
 import CodeTechStack from './CodeTechStack';
-import Footer from './Footer';
 
 import battleship from '../images/battleship_main.PNG';
 import aws from '../images/aws_logo.png';
@@ -55,7 +54,7 @@ class Code extends React.Component {
           </div>
           <CodeTechStack JavaScript={JavaScript} backEnd={backEnd} dataBase={dataBase} testing={testing} generic={generic} />
           <h1>Highlighted Projects</h1>
-          <img className="battleship" src={battleship} alt="battleship picture" />
+          <img className="battleship" src={battleship} alt="battleship" />
           <div className="project-container">
             <h3>Battleship: The Board Game... Onlinified</h3>
             <p className="project-paragraph">
@@ -73,7 +72,6 @@ class Code extends React.Component {
           </div>
         </div>
         <div className="right-column"></div>
-        {/* <Footer /> */}
       </div>
 
 

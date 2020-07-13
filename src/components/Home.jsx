@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import image from '../images/fricken.jpg';
-import Footer from './Footer';
 
 const Home = () => (
   <div className="home-container">
@@ -41,7 +40,6 @@ const Home = () => (
       </div>
     </div>
     <div className="right-column"></div>
-    {/* <Footer /> */}
   </div>
 )
 
