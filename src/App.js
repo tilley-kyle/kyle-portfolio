@@ -13,6 +13,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Code from './components/Code';
 import Photo from './components/Photo';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   constructor(props) {
@@ -51,6 +52,7 @@ class App extends React.Component {
             </Route>
           </Switch>
         </Router>
+        <Footer />
       </div>
     );
   }

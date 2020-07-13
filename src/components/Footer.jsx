@@ -1,7 +1,21 @@
 import React from 'react';
+import './Footer.css';
+
+import logo from '../images/Logo_Clear.png';
 
 const Footer = () => (
-  <div className="footer-container">content</div>
+  <footer className="footer-container">
+    <div className="footer-border"></div>
+    <div className="footer-content">
+      <div className="footer-title">KatilleyTech 2020</div>
+      <img className="footer-logo" src={logo} alt="logo" />
+      <div className="footer-techs">
+        User interface built with: • React • React Router • Axio <br/>
+        Server layer built with: • Express •Node <br/>
+        Database layer built with: • MySQL
+        </div>
+    </div>
+  </footer>
 )
 
 
