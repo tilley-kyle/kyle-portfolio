@@ -4,7 +4,7 @@
   border-top: 1px none;
   color: white;
   font-weight: lighter;
-  font-size: 2.1vh;
+  font-size: 1.8vh;
 }
 
 .footer-border {
@@ -33,5 +33,9 @@
 
 .footer-techs {
   padding-top: 2vh;
+  padding-left: 4vw;
+}
+
+.version {
   padding-left: 4vw;
 }
