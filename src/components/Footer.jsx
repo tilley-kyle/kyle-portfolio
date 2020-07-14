@@ -14,7 +14,7 @@ const Footer = () => (
         Server layer built with: • Express • Node <br/>
         Database layer built with: • MySQL
         </div>
-        <div className="version">Version 1.5</div>
+        <div className="version">Version 0.5</div>
     </div>
   </footer>
 )
