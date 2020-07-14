@@ -23,11 +23,12 @@
   text-decoration: none;
   margin: 15px;
   font-size: 1.2vw;
-  transition: text-shadow 1s;
+  transition: text-shadow 1s, font-weight 1s;
 }
 
 .link:hover {
   text-shadow: 0px 0px 5vh white;
+  font-weight: 700;
 }
 
 h1{
