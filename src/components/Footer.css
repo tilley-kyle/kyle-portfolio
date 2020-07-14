@@ -24,9 +24,9 @@
 
 .footer-logo {
   float: right;
-  width: 12vw;
+  width: 7vw;
   position: relative;
-  bottom: .8vh;
+  top: .5vh;
   right: 2vw;
   padding-bottom: 0vh;
 }

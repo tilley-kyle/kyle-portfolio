@@ -1,6 +1,6 @@
 .total-container {
   display: grid;
-  grid-template-rows: 25vh 1fr 4vh;
+  grid-template-rows: 25vh 1fr 1vh;
   /* font-family: Consolas; */
   font-weight: normal;
 }
