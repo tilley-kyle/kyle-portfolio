@@ -30,8 +30,8 @@
 }
 
 .link:hover {
-  text-shadow: 0px 0px 2vh white;
-  font-weight: 700;
+  text-shadow: 0px 0px 2vh rgba(255, 255, 255, 0.486);
+  font-weight: 600;
 }
 
 h1{
