@@ -40,6 +40,10 @@
   margin: 0vh;
 }
 
+h4 {
+  margin-bottom: 0;
+}
+
 .img {
   float: right;
   margin-right: 1vw;
