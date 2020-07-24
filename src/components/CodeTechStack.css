@@ -11,13 +11,14 @@
 }
 
 .tech-title {
-
+  font-size: 19px;
 }
 
 .tech-item {
   display: inline-block;
   padding-right: 1.5vw;
   padding-bottom: 1vh;
+  font-size: 16.9px;
 }
 
 .tech-item::before {
