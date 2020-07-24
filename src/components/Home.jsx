@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import image from '../images/fricken.jpg';
+import image from '../images/Under-Construction.png';
 
 const Home = () => (
   <div className="home-container">

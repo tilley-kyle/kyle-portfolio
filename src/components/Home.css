@@ -40,15 +40,15 @@
 }
 
 .fricken {
-  background-image: url('../images/fricken.jpg');
+  /* background-image: url('../images/Under-Construction.png'); */
   height: auto;
   max-width: 25vw;
   max-height: 50vh;
   float: right;
   padding: 0px;
   margin: 2vh;
-  border: 1.5px solid rgb(133, 124, 124);
-  box-shadow: 0px 0px 20px rgb(129, 128, 128);
+  /* border: 1.5px solid rgb(133, 124, 124); */
+  /* box-shadow: 0px 0px 20px rgb(129, 128, 128); */
 }
 
 .li {
