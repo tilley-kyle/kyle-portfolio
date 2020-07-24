@@ -3,6 +3,7 @@ import './Code.css';
 import CodeTechStack from './CodeTechStack';
 
 import battleship from '../images/battleship_main.PNG';
+import geAPI from '../images/Under-Construction.png';
 import aws from '../images/aws_logo.png';
 import github from '../images/github_logo.png';
 import js from '../images/js_logo.png';
@@ -54,7 +55,7 @@ class Code extends React.Component {
           </div>
           <CodeTechStack JavaScript={JavaScript} backEnd={backEnd} dataBase={dataBase} testing={testing} generic={generic} />
           <h1>Highlighted Projects</h1>
-          <img className="battleship" src={battleship} alt="battleship" />
+          <img className=" battleship img" src={battleship} alt="battleship" />
           <div className="project-container">
             <h3>Battleship: The Board Game... Onlinified</h3>
             <p className="project-paragraph">
@@ -68,6 +69,20 @@ class Code extends React.Component {
               <li className="li-steps">Add a radar animation to cycle as users play and are guessing where opponents ships are</li>
               <li className="li-steps">Makes ships to be represented by shapes, not letters</li>
               <li className="li-steps">Styling, primarily in the top bar</li>
+            </ul>
+          </div>
+          <img className="geAPI img" src={geAPI} alt="battleship" />
+          <div className="project-container">
+            <h3>Greenfield Ecommerce API</h3>
+            <p className="project-paragraph">
+              The Greenfield Ecommerce API was a project I made to practice building APIs, deploying them, and optimizing them to be able to handle
+              large volumes of traffic. During this I learned how to deploy to and interface with AWS, as well as how to use Redis caching
+              to decrease response time by up to 1000%!
+            </p>
+            <ul className="next-steps">
+              <h4>NextSteps</h4>
+              <li className="li-steps">Use load balancing to horizontally scale</li>
+              <li className="li-steps">Reach 15k requests/second</li>
             </ul>
           </div>
         </div>

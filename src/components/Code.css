@@ -32,7 +32,7 @@
   padding-right: 0vw;
   margin-left: 2vw;
   margin-right: 34vw;
-  font-size: 1.1vw;
+  font-size: 16.9px;
   border-bottom: 2px solid lightgray;
 }
 
@@ -40,12 +40,16 @@
   margin: 0vh;
 }
 
-.battleship {
+.img {
   float: right;
   margin-right: 1vw;
   max-width: 29vw;
   height: auto;
   box-shadow: 0px 0px .75vw rgb(129, 128, 128);
+}
+
+.geAPI {
+  box-shadow: none;
 }
 
 .next-steps {
