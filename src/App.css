@@ -16,8 +16,10 @@
   top: 20vh;
   padding: 0.4vh 0vw;
   padding-left: 2vw;
-  background-color: rgba(146, 146, 146, 0.521);
-  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.534);
+  padding-right: 0vw;
+  background-color: rgba(146, 146, 146, 0.692);
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.61);
+  width: 100%;
 }
 
 .link {
