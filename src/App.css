@@ -11,15 +11,17 @@
   background-size: cover;
 }
 
-.link-container {
+.header-bar {
   position: absolute;
   top: 20.5vh;
-  padding: 0.4vh 0vw;
-  padding-left: 3vw;
-  padding-right: 0vw;
   background-color: rgba(146, 146, 146, 0.781);
   box-shadow: 0px 0.6vh 0.5vh rgba(255, 255, 255, 0.61), 0px -0.3vh 0.5vh rgba(255, 255, 255, 0.61);
   width: 100%;
+}
+
+.link-container {
+  padding: 0.4vh 0vw;
+  padding-left: 3vw;
 }
 
 .link {
