@@ -22,6 +22,9 @@
 .link-container {
   padding: 0.4vh 0vw;
   padding-left: 3vw;
+  width: max-content;
+  padding-right: 1vw;
+  margin-right: 0;
 }
 
 .link {
@@ -36,6 +39,15 @@
 .link:hover {
   text-shadow: 0px 0px 2vh rgba(255, 255, 255, 0.486);
   font-weight: 600;
+}
+
+.about-me {
+  padding: 0.4vh 0vw;
+  float: right;
+  padding-right: 3vw;
+}
+
+.green {
 }
 
 h1{
