@@ -14,6 +14,7 @@ import About from './components/About';
 import Code from './components/Code';
 import Photo from './components/Photo';
 import Footer from './components/Footer';
+import ContactInfo from './components/ContactInfo';
 
 class App extends React.Component {
   constructor(props) {
@@ -35,7 +36,7 @@ class App extends React.Component {
             <div className="header-bar">
             <div className="about-me">
                 <button className={hiringButtonClassName}>Is Kyle Job Seeking?</button>
-                <Link className="link" to="/contactInfo">info</Link>
+                <Link className="link" to="/ContactInfo">info</Link>
               </div>
               <div className="link-container">
                 <Link className="link" to="/">Home</Link>
@@ -57,6 +58,9 @@ class App extends React.Component {
             </Route>
             <Route path="/Photo">
               <Photo />
+            </Route>
+            <Route path='/ContactInfo'>
+              <ContactInfo />
             </Route>
           </Switch>
         </Router>
