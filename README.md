@@ -2,12 +2,9 @@
 
 ## ToDo
 - Pictures on MyCode page are formatted weird
-- ADD RESUME DOWNLOAD BUTTON
 - Low resolution of image load first so whole page loads together (server side render maybe?)
-- Am I actively looking for a job
 - Add StyleSheets folder to clean up components folder
 - Switch column division to main app file from each individual component to help with footer placement
-- footer
 > - links to other sites. Techs used to build etc.
 - Add a 'blog' section to the bottom
 - About Kyle page

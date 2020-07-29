@@ -33,21 +33,53 @@
   text-decoration: none;
   margin: 1.25vw;
   font-size: 1.2vw;
-  transition: text-shadow 1s, font-weight 1s;
+  transition: text-shadow 0.5s, font-weight 0.5s;
+  transition-timing-function: linear;
+}
+
+.career {
+  padding-left: 1.5vw;
 }
 
 .link:hover {
   text-shadow: 0px 0px 2vh rgba(255, 255, 255, 0.486);
-  font-weight: 600;
+  font-weight: 550;
 }
 
 .about-me {
   padding: 0.4vh 0vw;
   float: right;
-  padding-right: 10vw;
+  padding-right: 7vw;
+}
+
+button {
+  border-radius: 5px;
+  padding: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  border-radius: 5px;
+  border: 1px solid rgb(1, 175, 1);
+}
+
+@keyframes glow {
+  0% {box-shadow: 0 0 transparent;}
+  100% {box-shadow: 2px 2px 5px rgba(0, 255, 0, 0.527), -2px -2px 5px rgba(0, 255, 0, 0.527), -2px 2px 5px rgba(0, 255, 0, 0.527), 2px -2px 5px rgba(0, 255, 0, 0.527);}
 }
 
 .green {
+  animation-name: glow;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  border: 1px solid rgb(1, 175, 1);
+  background: radial-gradient(closest-side, rgb(0, 248, 0), rgb(96, 255, 96));
 }
 
 h1{

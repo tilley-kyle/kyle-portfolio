@@ -37,9 +37,9 @@ class App extends React.Component {
             <div className="header-bar">
             <div className="about-me">
               <a href={resume} download>
-                  <button className={hiringButtonClassName}>Is Kyle Job Seeking?</button>
+                  <button className={hiringButtonClassName}>Resumé</button>
                 </a>
-                <Link className="link" to="/ContactInfo">info</Link>
+                <Link className="link career" to="/ContactInfo">Career Info</Link>
               </div>
               <div className="link-container">
                 <Link className="link" to="/">Home</Link>
