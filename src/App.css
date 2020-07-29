@@ -5,6 +5,10 @@
   font-weight: normal;
 }
 
+.content-container {
+  padding-bottom: ;
+}
+
 .banner-container {
   background-image: url('./images/Eyes_of_Juno.jpg');
   background-position: 50% 48%;
