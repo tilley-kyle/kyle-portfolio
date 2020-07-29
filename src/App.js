@@ -8,6 +8,7 @@ import {
 import './App.css';
 
 import logo from './images/Logo_Clear.png';
+import resume from './images/Resume-no-phone.pdf';
 
 import Home from './components/Home';
 import About from './components/About';
@@ -35,7 +36,9 @@ class App extends React.Component {
             <img className="logo" src={logo} alt="logo here" />
             <div className="header-bar">
             <div className="about-me">
-                <button className={hiringButtonClassName}>Is Kyle Job Seeking?</button>
+              <a href={resume} download>
+                  <button className={hiringButtonClassName}>Is Kyle Job Seeking?</button>
+                </a>
                 <Link className="link" to="/ContactInfo">info</Link>
               </div>
               <div className="link-container">
