@@ -1,6 +1,7 @@
 # My Portfolio site
 
 ## ToDo
+- Pictures on MyCode page are formatted weird
 - ADD RESUME DOWNLOAD BUTTON
 - Low resolution of image load first so whole page loads together (server side render maybe?)
 - Am I actively looking for a job
