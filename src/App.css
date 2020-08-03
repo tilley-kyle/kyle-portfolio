@@ -1,11 +1,16 @@
 .total-container {
-  display: grid;
-  grid-template-rows: 25vh 1fr 1vh;
+  /* display: grid;
+  grid-template-rows: 25vh 1fr; */
   /* font-family: Consolas; */
   font-weight: normal;
+  position: relative;
+  min-height: 100vh;
 }
 
 .content-container {
+  display: grid;
+  grid-template-rows: 25vh 1fr;
+  padding-bottom: 17vh;
 }
 
 .banner-container {
