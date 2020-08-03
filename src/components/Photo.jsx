@@ -10,12 +10,19 @@ class Photo extends React.Component {
     }
   }
 
+  async componentDidMount() {
+
+  }
 
   render() {
     return (
-      <div>
-        <img className="temp-img" src={image} alt="under construction" />
-        <div className="temp">Photography coming soon</div>
+      <div className="photo-container">
+        <div className="left-column"></div>
+        <div className="center-column">
+          <img className="temp-img" src={image} alt="under construction" />
+          <div className="temp">Photography coming soon</div>
+        </div>
+        <div className="right-column"></div>
       </div>
     )
   }

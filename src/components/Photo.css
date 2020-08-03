@@ -8,3 +8,9 @@
   margin-right: auto;
   width: 30vw;
 }
+
+.photo-container {
+  display: grid;
+  grid-template-columns: 1fr 65vw 1fr;
+  min-height: 60vh;
+}
