@@ -6,18 +6,21 @@ class Photo extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-
+      photosToDisplay: [],
     }
   }
 
-  async componentDidMount() {
+  componentDidMount() {
     fetch('http://localhost:8153/photos')
+    .then(  (data) => {
+      return data.json();
+    })
     .then((photos) => {
-      console.log('yay', photos);
+      this.setState({ photosToDisplay: photos.photos.photo });
     })
     .catch((err) => {
       console.log('boo', err);
-    })
+    });
   }
 
   render() {
@@ -30,7 +33,7 @@ class Photo extends React.Component {
         </div>
         <div className="right-column"></div>
       </div>
-    )
+    );
   }
 };
 
