@@ -7,12 +7,12 @@ const Footer = () => (
   <div className="footer-container">
     <div className="footer-border"></div>
     <div className="footer-content">
-      <div className="footer-title">KatilleyTech July 2020</div>
+      <div className="footer-title">KatilleyTech August 2020</div>
       <img className="footer-logo" src={logo} alt="logo" />
       <div className="footer-techs">
-        User interface built with: • React • React Router • Axios <br/>
-        Server layer built with: • Express • Node <br/>
-        Database layer built with: • MySQL (Not Implemented Yet)
+        User Interface Technologies: • React • React Router • Axios <br/>
+        Server Layer Technologies: • Express • Node <br/>
+        Database Layer Technology: • MySQL (Not Implemented Yet)
         </div>
     </div>
   </div>
