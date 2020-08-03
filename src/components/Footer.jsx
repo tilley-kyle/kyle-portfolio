@@ -12,9 +12,8 @@ const Footer = () => (
       <div className="footer-techs">
         User interface built with: • React • React Router • Axios <br/>
         Server layer built with: • Express • Node <br/>
-        Database layer built with: • MySQL
+        Database layer built with: • MySQL (Not Implemented Yet)
         </div>
-        <div className="version">Version 0.5</div>
     </div>
   </div>
 )

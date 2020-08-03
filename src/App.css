@@ -67,6 +67,7 @@ button {
   font-weight: 500;
   padding: 3px 4px 5px 4px;
   border: 1px outset rgb(0, 0, 0);
+  color: rgb(209, 209, 209);
 }
 
 button:hover {
