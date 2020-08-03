@@ -11,7 +11,13 @@ class Photo extends React.Component {
   }
 
   async componentDidMount() {
-
+    fetch('http://localhost:8153/photos')
+    .then((photos) => {
+      console.log('yay', photos);
+    })
+    .catch((err) => {
+      console.log('boo', err);
+    })
   }
 
   render() {
