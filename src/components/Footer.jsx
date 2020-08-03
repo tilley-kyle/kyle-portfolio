@@ -4,7 +4,7 @@ import './Footer.css';
 import logo from '../images/Logo_white.png';
 
 const Footer = () => (
-  <footer className="footer-container">
+  <div className="footer-container">
     <div className="footer-border"></div>
     <div className="footer-content">
       <div className="footer-title">KatilleyTech July 2020</div>
@@ -16,7 +16,7 @@ const Footer = () => (
         </div>
         <div className="version">Version 0.5</div>
     </div>
-  </footer>
+  </div>
 )
 
 

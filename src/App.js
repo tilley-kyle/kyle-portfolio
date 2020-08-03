@@ -31,7 +31,7 @@ class App extends React.Component {
     const hiringButtonClassName = seekingJob ? 'green' : 'gray';
     return (
       <div className="total-container">
-        {/* <div className="content-container"> */}
+        <div className="content-container">
           <Router>
             <div className="banner-container">
               <img className="logo" src={logo} alt="logo here" />
@@ -68,7 +68,7 @@ class App extends React.Component {
               </Route>
             </Switch>
           </Router>
-        {/* </div> */}
+        </div>
         <Footer />
       </div>
     );
