@@ -3,7 +3,7 @@ const bp = require('body-parser');
 const cors = require('cors');
 const Flickr = require('flickr-sdk');
 
-const FLICKR_API_KEY = require('../FLICKR_API_KEY');
+// const FLICKR_API_KEY = require('../FLICKR_API_KEY');
 
 const app = express();
 const port = 8153;
