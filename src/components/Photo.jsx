@@ -1,6 +1,8 @@
 import React from 'react';
 import './Photo.css';
 
+import construction from '../images/Under-Construction.png';
+
 class Photo extends React.Component {
   constructor(props) {
     super(props)
@@ -91,7 +93,9 @@ class Photo extends React.Component {
                 <p className="pInfo">Taken: 2020/06/24</p>
               </td>
             </tr>
-            </table>
+          </table>
+          <img className="construction" src={construction} />
+          <div className="temp">photo carousel coming soon</div>
         </div>
         <div className="right-column"></div>
       </div>
