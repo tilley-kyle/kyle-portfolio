@@ -1,7 +1,7 @@
 import React from 'react';
 import './Photo.css';
 
-import construction from '../images/Under-Construction.png';
+import CarouselComponent from './CarouselComponent';
 
 class Photo extends React.Component {
   constructor(props) {
@@ -12,36 +12,37 @@ class Photo extends React.Component {
     }
   }
 
-  // componentDidMount() {
-  //   const { flickrPhotos } = this.state;
-  //   const flickerPhotosCount = flickrPhotos.length;
-  //   fetch('http://localhost:8153/photos')
-  //   .then( (data) => {
-  //     return data.json();
-  //   })
-  //   .then((photos) => {
-  //     const randomNumbers = [];
-  //     for (let i = 0; i < 6; i ++) {
-  //       let newNumber = Math.floor(Math.random() * flickerPhotosCount);
-  //       while (randomNumbers.indexOf(newNumber) > -1) {
-  //         newNumber = Math.floor(Math.random() * flickerPhotosCount);
-  //       }
-  //       randomNumbers.push(newNumber);
-  //     }
-  //     const selectPhotos = [];
-  //     randomNumbers.forEach((number) => selectPhotos.push(photos.photos.photo[number]));
-  //     this.setState({
-  //       flickrPhotos: photos.photos.photo,
-  //       selectPhotos: selectPhotos
-  //     });
-  //   })
-  //   .catch((err) => {
-  //     console.log('boo', err);
-  //   });
-  // }
+  componentDidMount() {
+    fetch('http://localhost:8153/photos')
+    .then( (data) => {
+      console.log('here 1')
+      return data.json();
+    })
+    .then((photos) => {
+      const randomNumbers = [];
+      for (let i = 0; i < 6; i ++) {
+        let newNumber = Math.floor(Math.random() * photos.photos.photo.length);
+        while (randomNumbers.indexOf(newNumber) > -1) {
+          newNumber = Math.floor(Math.random() * photos.photos.photo.length);
+        }
+        randomNumbers.push(newNumber);
+      }
+      console.log('rand', randomNumbers)
+      const selectPhotos = [];
+      randomNumbers.forEach((number) => selectPhotos.push(photos.photos.photo[number]));
+      this.setState({
+        flickrPhotos: photos.photos.photo,
+        selectPhotos: selectPhotos
+      });
+      console.log('state set')
+    })
+    .catch((err) => {
+      console.log('boo', err);
+    });
+  }
 
   render() {
-    const { flickrPhotos } = this.state;
+    const { selectPhotos } = this.state;
     return (
       <div className="photo-container">
         <div className="left-column"></div>
@@ -94,8 +95,9 @@ class Photo extends React.Component {
               </td>
             </tr>
           </table>
-          <img className="construction" src={construction} />
-          <div className="temp">photo carousel coming soon</div>
+          <div>
+            {/* <CarouselComponent selectPhotos={selectPhotos} /> */}
+          </div>
         </div>
         <div className="right-column"></div>
       </div>
