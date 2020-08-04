@@ -66,7 +66,7 @@ class Photo extends React.Component {
               </td>
             </tr>
             </table>
-            <table>
+            <table className="selected-photos">
             <tr>
               <td>
                 <p className="p">I took this shot of a fox who I still haven't figured out what happened. It either was in a fight or had Mange.</p>
@@ -79,6 +79,19 @@ class Photo extends React.Component {
               </td>
             </tr>
           </table>
+          <table className="selected-photos">
+            <tr>
+              <td>
+                <a data-flickr-embed="true" href="https://www.flickr.com/photos/kyleatilley/50066039877/in/dateposted-public/" title="Juno, more natural">
+                  <img className="juno-colored" src="https://live.staticflickr.com/65535/50066039877_2f636144c3_k.jpg" alt="Juno, more natural" />
+                </a>
+              </td>
+              <td className="td">
+                <p className="p">Juno. My adventure accomplice. Always by my side and deals with my picture taking of both her and the world around.<br/>What a good girl!</p>
+                <p className="pInfo">Taken: 2020/06/24</p>
+              </td>
+            </tr>
+            </table>
         </div>
         <div className="right-column"></div>
       </div>
