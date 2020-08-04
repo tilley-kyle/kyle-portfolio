@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Photo.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CarouselComponent = ({ selectPhotos }) => {
   if (!selectPhotos) {
@@ -14,7 +15,7 @@ const CarouselComponent = ({ selectPhotos }) => {
           return (
             <Carousel.Item>
               <img
-                className="carousel-img"
+                className="d-block  carousel-img"
                 src={sourceURL}
                 alt={photo.title}
               />

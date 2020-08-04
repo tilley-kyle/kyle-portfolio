@@ -92,7 +92,7 @@ class Photo extends React.Component {
               </td>
             </tr>
           </table>
-          <div>
+          <div className="carousel-container">
             <CarouselComponent selectPhotos={selectPhotos} />
           </div>
         </div>
