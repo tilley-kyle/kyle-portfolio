@@ -1,12 +1,18 @@
-.temp {
-  text-align: center;
+.left-column {
+  border-right: 1px hidden black;
+  background-image: linear-gradient(#DAE0E6, #afafaf);
 }
 
-.temp-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30vw;
+.center-column-photo {
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 3.9vh;
+}
+
+.right-column {
+  border-left: 1px hidden black;
+  background-image: linear-gradient(#DAE0E6, #afafaf);
 }
 
 .photo-container {
@@ -16,8 +22,8 @@
 }
 
 .photo-heading {
-  padding: 3.2vh;
-  padding-top: 2vh;
+  /* padding: 3.2vh; */
+  /* padding-top: 2vh; */
 }
 
 .heading-photo {
@@ -26,5 +32,46 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473), -2px 2px 10px rgba(0, 0, 0, 0.473);
+}
+
+.heading-title {
+  padding: 0;
+  text-decoration: underline;
+  margin-bottom: 1vh;
+}
+
+.heading-paragraph {
+  padding: 0;
+  margin-top: 1vh;
+}
+
+.selected-photos {
+  max-width: 60vw;
+}
+
+table {
+  padding-bottom: 5vh;
+}
+
+.milky-way-photo {
+  width: 35vw;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473), -2px 2px 10px rgba(0, 0, 0, 0.473);
+}
+
+.p {
+  margin-bottom: 1em;
+  padding-left: 0.75em;
+}
+
+.pInfo {
+  margin-bottom: 1em;
+  padding-left: 0.75em;
+  font-size: 14px;
+}
+
+.fighting-fox {
+  width: 40vw;
+  margin-left: 0.75em;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473), -2px 2px 10px rgba(0, 0, 0, 0.473);
 }
