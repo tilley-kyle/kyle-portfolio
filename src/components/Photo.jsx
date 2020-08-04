@@ -14,7 +14,7 @@ class Photo extends React.Component {
 
   componentDidMount() {
     const photosRoute = `${process.env.PORT}/photos`;
-    fetch(photosRoute)
+    fetch('/photos')
     .then( (data) => {
       return data.json();
     })
