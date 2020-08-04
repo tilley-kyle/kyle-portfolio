@@ -15,7 +15,6 @@ class Photo extends React.Component {
   componentDidMount() {
     fetch('http://localhost:8153/photos')
     .then( (data) => {
-      console.log('here 1')
       return data.json();
     })
     .then((photos) => {
@@ -27,14 +26,12 @@ class Photo extends React.Component {
         }
         randomNumbers.push(newNumber);
       }
-      console.log('rand', randomNumbers)
       const selectPhotos = [];
       randomNumbers.forEach((number) => selectPhotos.push(photos.photos.photo[number]));
       this.setState({
         flickrPhotos: photos.photos.photo,
         selectPhotos: selectPhotos
       });
-      console.log('state set')
     })
     .catch((err) => {
       console.log('boo', err);
@@ -96,7 +93,7 @@ class Photo extends React.Component {
             </tr>
           </table>
           <div>
-            {/* <CarouselComponent selectPhotos={selectPhotos} /> */}
+            <CarouselComponent selectPhotos={selectPhotos} />
           </div>
         </div>
         <div className="right-column"></div>
