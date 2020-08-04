@@ -8,7 +8,7 @@ const Flickr = require('flickr-sdk');
 const app = express();
 const port = 8153;
 
-const flickr = new Flickr(process.env.flickr_key || FLICKR_API_KEY.key);
+const flickr = new Flickr(process.env.flickr_key );
 
 app.use(cors());
 app.use(express.static('build'));
