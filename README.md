@@ -1,6 +1,7 @@
 # My Portfolio site
 
 ## ToDo
+- caruosel from react-bootstrap
 - Pictures on MyCode page are formatted weird
 - Low resolution of image load first so whole page loads together (server side render maybe?)
 - Add StyleSheets folder to clean up components folder
